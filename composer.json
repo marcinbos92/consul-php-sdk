@@ -1,0 +1,32 @@
+{
+  "name": "vouss/consul-php-sdk",
+  "description": "SDK to talk with consul.io API",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcin Boś",
+      "email": "marcin.bos.92@gmai.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "guzzlehttp/guzzle": "^6.0",
+    "psr/log": "~1.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vouss\\Consul\\": "Consul"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  },
+  "require-dev": {
+    "symfony/process": "^4.1",
+    "symfony/filesystem": "^4.1",
+    "phpunit/phpunit": "^7.4"
+  }
+}

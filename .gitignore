@@ -1,0 +1,6 @@
+/composer.lock
+/build/
+/bin/consul/config/data-dir/
+/vendor/
+.idea/
+consul-php-sdk.iml
